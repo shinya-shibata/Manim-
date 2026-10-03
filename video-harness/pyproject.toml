@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "video-harness"
+version = "0.1.0"
+description = "Minimal PoC for tracing a source equation into a verified Manim scene."
+requires-python = ">=3.10"
+dependencies = [
+  "manim==0.21.0",
+  "pydantic>=2.0,<3.0",
+  "PyYAML>=6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools]
+packages = ["harness"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

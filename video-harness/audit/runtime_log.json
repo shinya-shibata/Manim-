@@ -1,0 +1,38 @@
+[
+  {
+    "scene": "scene_001",
+    "object": "obj_eq_001",
+    "kind": "equation",
+    "registry_id": "eq_001",
+    "latex": "X = \\theta(\\beta)U",
+    "normalized": "X=\\theta(\\beta)U",
+    "hash": "a87ef160f37f2641d27406e9401eb6f9d36bfa0efa9c1284e25564898526b859"
+  },
+  {
+    "scene": "scene_001",
+    "object": "obj_eq_001",
+    "kind": "equation",
+    "registry_id": "eq_001",
+    "latex": "X = \\theta(\\beta)U",
+    "normalized": "X=\\theta(\\beta)U",
+    "hash": "a87ef160f37f2641d27406e9401eb6f9d36bfa0efa9c1284e25564898526b859"
+  },
+  {
+    "scene": "scene_001",
+    "object": "obj_eq_001",
+    "kind": "equation",
+    "registry_id": "eq_001",
+    "latex": "X = \\theta(\\beta)U",
+    "normalized": "X=\\theta(\\beta)U",
+    "hash": "a87ef160f37f2641d27406e9401eb6f9d36bfa0efa9c1284e25564898526b859"
+  },
+  {
+    "scene": "scene_001",
+    "object": "obj_claim_002",
+    "kind": "caption",
+    "registry_id": "claim_002",
+    "latex": "This equation expresses the observed quantity X as a structural term and a variable term.",
+    "normalized": "ThisequationexpressestheobservedquantityXasastructuraltermandavariableterm.",
+    "hash": "73ae7b70d990b15e7040ceead924d6cddc7457f70027eb94b9a586d6dd10dca5"
+  }
+]

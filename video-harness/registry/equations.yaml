@@ -1,0 +1,13 @@
+equations:
+  - id: eq_001
+    status: source
+    latex: "X = \\theta(\\beta)U"
+    hash: "a87ef160f37f2641d27406e9401eb6f9d36bfa0efa9c1284e25564898526b859"
+    source:
+      file: source/paper.md
+  - id: eq_002
+    status: proposed
+    latex: "X = \\theta(\\beta)U + \\epsilon"
+    hash: "d27c8d31c5f1308574bf7d8d7d2d9ef9ac4b7b6f8d0c1a0d516e9d5b15d692c2"
+    source:
+      file: source/paper.md

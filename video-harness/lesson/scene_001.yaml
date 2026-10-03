@@ -1,0 +1,12 @@
+scene:
+  id: scene_001
+  objective:
+    text: "構造方程式の基本的な意味を理解する"
+  content:
+    - type: equation
+      id: eq_001
+    - type: caption
+      id: claim_002
+  actions:
+    - show: eq_001
+    - explain: claim_002

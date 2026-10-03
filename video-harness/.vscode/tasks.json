@@ -1,0 +1,47 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Parse Registry",
+      "type": "shell",
+      "command": "python -c \"from harness.parse import generate_registry; generate_registry(); print('registry ok')\"",
+      "options": { "cwd": "c:\\Users\\user\\Downloads\\Manim 解説動画ハーネスの設計\\video-harness" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Validate Lesson",
+      "type": "shell",
+      "command": "python -c \"import yaml; from harness.schema import validate_scene_spec; data = yaml.safe_load(open('lesson/scene_001.yaml', encoding='utf-8')); validate_scene_spec(data); print('lesson ok')\"",
+      "options": { "cwd": "c:\\Users\\user\\Downloads\\Manim 解説動画ハーネスの設計\\video-harness" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Lint Scene",
+      "type": "shell",
+      "command": "python -c \"from harness.lint import lint_scene; issues = lint_scene('scenes/scene_001.py'); print(issues if issues else 'lint ok')\"",
+      "options": { "cwd": "c:\\Users\\user\\Downloads\\Manim 解説動画ハーネスの設計\\video-harness" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Render Low Quality",
+      "type": "shell",
+      "command": "python -m manim scenes/scene_001.py Scene001 -q l --format=mp4 -o scene_001.mp4",
+      "options": { "cwd": "c:\\Users\\user\\Downloads\\Manim 解説動画ハーネスの設計\\video-harness" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Verify",
+      "type": "shell",
+      "command": "python -c \"from harness.verify import verify_scene; print(verify_scene('lesson/scene_001.yaml'))\"",
+      "options": { "cwd": "c:\\Users\\user\\Downloads\\Manim 解説動画ハーネスの設計\\video-harness" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Run All Checks",
+      "type": "shell",
+      "command": "python -m pytest -q",
+      "options": { "cwd": "c:\\Users\\user\\Downloads\\Manim 解説動画ハーネスの設計\\video-harness" },
+      "problemMatcher": []
+    }
+  ]
+}

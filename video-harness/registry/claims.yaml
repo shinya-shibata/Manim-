@@ -1,0 +1,11 @@
+claims:
+  - id: claim_001
+    type: source
+    text: "A structural equation represents an observed quantity using a structural component and a variable component."
+    source:
+      file: source/paper.md
+  - id: claim_002
+    type: pedagogical
+    text: "This equation expresses the observed quantity X as a structural term and a variable term."
+    supports:
+      - eq_001
