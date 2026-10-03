@@ -1,0 +1,10 @@
+[
+  "tests/test_lint.py::test_direct_mathtex_rejected",
+  "tests/test_lint.py::test_direct_text_rejected",
+  "tests/test_registry.py::test_hash_mismatch_rejected",
+  "tests/test_registry.py::test_proposed_equation_rejected",
+  "tests/test_registry.py::test_unknown_equation_rejected",
+  "tests/test_registry.py::test_wrong_latex_rejected",
+  "tests/test_verify.py::test_scene_spec_validation",
+  "tests/test_verify.py::test_verify_scene_passes"
+]
